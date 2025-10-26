@@ -52,7 +52,11 @@
 
 ---
 
+<<<<<<< HEAD
 ##  Enfoque y arquitectura
+=======
+## Enfoque y arquitectura
+>>>>>>> cbb704806c40b025debf106ef23e38e7d0eeae32
 
 - **Frontend:** React + TypeScript + Vite, componentes funcionales, hooks personalizados y modularidad.
 - **Backend:** ExpressJS como proxy seguro a la API de Spotify (manejo de token y cacheo).
@@ -138,7 +142,21 @@ MIT
 
 ---
 
+<<<<<<< HEAD
 ## 👨‍💻 Autor
 
 Luis Vaz  
 [GitHub](https://github.com/luisvaz-1)
+=======
+##  Autor
+
+Luis Vaz  
+[GitHub](https://github.com/luisvaz-1)
+## Tecnologías
+
+- React + TypeScript
+- Vite
+- Recharts
+- Styled Components
+- Jest + React Testing Library
+>>>>>>> cbb704806c40b025debf106ef23e38e7d0eeae32
