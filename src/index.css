@@ -1,0 +1,7 @@
+/* Puedes adaptar este archivo si usas Tailwind, CSS Modules, o tu propio sistema de estilos */
+body {
+  margin: 0;
+  font-family: 'Inter', 'Arial', sans-serif;
+  background: #f9f9f9;
+  color: #222;
+}
