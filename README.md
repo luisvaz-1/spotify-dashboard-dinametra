@@ -23,7 +23,7 @@
 1. **Clona el repositorio**  
    ```bash
    git clone git@github.com:luisvaz-1/spotify-dashboard-dinametra.git
-   cd spotify-dashboard-dinametra
+   cd 'C:\Users\VzLuis\Documents\spotify-dashboard-dinametra'
    ```
 2. **Instala dependencias**  
    ```bash

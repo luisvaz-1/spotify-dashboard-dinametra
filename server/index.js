@@ -82,3 +82,18 @@ app.get("/api/album-genres", async (req, res) => {
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log("Servidor escuchando en puerto", PORT));
+// hacer pruebas de esta parte de código 
+import querystring from "querystring";
+
+app.get("/login", (req, res) => {
+  const scope = "user-top-read";
+  const redirect_uri = "http://localhost:4000/callback";
+  const authUrl = "https://accounts.spotify.com/authorize?" +
+    querystring.stringify({
+      response_type: "code",
+      client_id: clientId,
+      scope,
+      redirect_uri,
+    });
+  res.redirect(authUrl);
+});
